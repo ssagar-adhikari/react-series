@@ -1,9 +1,12 @@
+import New from './new';
 function App() {
-  
-
-  return (
-    <h1>React With Vite</h1>
-  )
+  return(
+    <>
+      <New />
+      <h1>Chiya</h1>
+      <p>Hello</p>
+    </>
+  ) ;
 }
 
-export default App
+export default App;
