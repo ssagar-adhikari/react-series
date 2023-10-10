@@ -1,9 +1,10 @@
 import New from './new';
 function App() {
+  const username = 'sagar';
   return(
     <>
       <New />
-      <h1>Chiya</h1>
+      <h1>Chiya {username}</h1>
       <p>Hello</p>
     </>
   ) ;
